@@ -116,3 +116,89 @@ select, option{
 .check{
   margin-bottom: 8px;
 }
+
+footer{
+  
+  box-shadow: 0px -3px 5px rgba(0,0,0,0.4);
+}
+
+footer,
+footer b{
+  text-align: center;
+  width: 100%;
+  font-size: 0.85rem;
+  height: 70px;
+  line-height: 70px;
+}
+
+@media screen and (min-width: 1100px){
+
+  main h2{
+    font-size: 1.8rem;
+  }
+
+  .container{
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  main p{
+    width: unset;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 1.4rem;
+  }
+
+  main b{
+    font-size: 1.4rem;
+  }
+
+
+  .container-text-video{
+    width: 45%;
+  }
+  video{
+    width: 700px;
+  }
+
+  .formulario{
+    margin: 0;
+    width: 25%;
+    margin-top: 30px;
+  }
+
+  .formulario h3{
+    font-size: 1rem;
+  }
+
+  .container-entrada{
+    padding-bottom: 0.2rem;
+  }
+
+  .container-entrada label{
+    font-size: 0.8rem;
+  }
+
+  .check{
+    margin-bottom: 10px;
+  }
+
+  .check span{
+    font-size: 0.8rem;
+  }
+
+  .formulario input[type="text"],
+  option, select{
+
+    padding: 0.2rem;
+  }
+
+  footer,
+  footer b{
+    height: 60px;
+    line-height: 60px;
+    max-height: 60px;
+  }
+}
