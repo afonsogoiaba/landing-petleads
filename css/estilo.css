@@ -46,6 +46,15 @@ video{
   margin-left: 4%;
 }
 
+.container-text-video span {
+  margin-left: 15px;
+  font-size: 0.8rem;
+}
+
+.container-text-video span b{
+  font-size: 0.8rem;
+}
+
 .formulario{
   width: 93%;
   margin: 0 auto;
@@ -163,6 +172,15 @@ footer b{
 
   .container-text-video{
     width: 45%;
+  }
+
+  .container-text-video span{
+    margin-left: 25px;
+    font-size: 0.9rem;
+  }
+
+  .container-text-video span b{
+    font-size: 0.9rem;
   }
   video{
     width: 700px;
