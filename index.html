@@ -41,146 +41,39 @@
     </header>
 
     <main>
-      <h2>Complexo Primavera</h2>
+      <!-- <h2>Complexo Primavera</h2> -->
 
       <div class="container">
         <div class="container-text-video">
-          <p>A empresa <b>Pax Primavera</b> ofere <b>excelência </b>em atendimento a seus <b>associados</b>.</p>
-          <video src="video/COMPLEXO-DOURADOS-ALTERADO.mp4" controls autoplay muted></video>
-          <span>Vídeo gravado em Dourados - <b>2019</b></span>
+          <!-- <p>A empresa <b>Pax Primavera</b> oferece <b>excelência </b>em atendimento a seus <b>associados</b>.</p> -->
+          <!-- <video src="video/COMPLEXO-DOURADOS-ALTERADO.mp4" controls autoplay muted></video> -->
+          <img class="complexo" src="img/complexo.png" alt="">  
+          <!-- <span>Vídeo gravado em Dourados - <b>2019</b></span> -->
         </div>
 
-        <form action="" class="formulario formulario1">
-
-          <h3>Torne-se um associado</h3>
-
-          <div class="container-entrada">
-            <label for="nome_form_1">Nome </label>
-            <input type="text" name="nome_form_1" id="nome_1">
-          </div>
-
-          <div class="container-entrada">
-            <label for="telefone_form_1">Telefone </label>
-            <input type="text" name="telefone_form_1" id="telefone_1" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);" maxlength="15">
-          </div>
-
-          <div class="container-entrada">
-            <label for="cidade_form_1">Cidade </label>
-            <select name="cidade_form_1" id="cidade_1">
-              <option value="" selected disabled="disabled">Selecione...</option>
-              
-              <option value="1"> Dourados </option>
-              
-              <option value="21"> Abadiania </option>
-            
-              <option value="26"> Altônia </option>
-
-              <option value="2"> Amambai </option>
-
-              <option value="22"> Anapolis </option>
-            
-              <option value="3"> Antônio João </option>
-
-              <option value="4"> Aral Moreira </option>
-
-              <option value="5"> Bela Vista </option>
-
-              <option value="6"> Caarapó </option>
-
-              <option value="27"> Cascavel </option>
-            
-              <option value="44"> Campo Grande </option>
-
-              <option value="25"> Campo Limpo </option>
-
-              <option value="7"> Coronel </option>
-
-              <option value="29"> Cruzeiro do Oeste </option>
-              
-              <option value="8"> Douradina </option>
-
-              <option value="9"> Eldorado </option>
-
-              <option value="10"> Iguatemi </option>
-            
-              <option value="30"> Goioerê </option>
-            
-              <option value="31"> Guaíra </option>           
-
-              <option value="32"> Guaraniaçu </option>
-
-              <option value="33"> Icaraíma </option>
-
-              <option value="34"> Iporã </option>
-              
-              <option value="12"> Itaquirai </option>
-              
-              <option value="11"> Itaporã </option>
-              
-              <option value="35"> Ivate </option>            
-            
-              <option value="13"> Juti </option>
-          
-              <option value="14"> Laguna </option>
-
-              <option value="36"> Marechal </option>           
-              
-              <option value="37"> Mariluz </option>
-              
-              <option value="15"> Mundo Novo </option>
-
-              <option value="16"> Navirai </option>
-            
-              <option value="17"> Nova Alvorada </option>
-            
-              <option value="38"> Palotina </option>
-            
-              <option value="18"> Ponta Porã </option>
-
-              <option value="19"> Rio Brilhante </option>
-
-              <option value="39"> Santa Helena </option>
-            
-              <option value="40"> Santa Tereza </option>
-              
-              <option value="23"> Silvania </option>
-
-              <option value="20"> São Gabriel </option>
-
-              <option value="24"> São Salvador </option>
-              
-              <option value="41"> Umuarama </option>
-
-              <option value="42"> Vera Cruz </option>     
-            </select>
-          </div>
-
-          <div class="container-entrada">
-            <label for="interesses_1">Selecione seus interesses</label>
-
-            <div class="check">
-              <input type="checkbox" name="interesses_1" class="interesses_1" value="Conhecer os planos Pax Primavera">
-              <span>Conhecer os planos Pax Primavera</span>
+        <div class="form-pulse">
+          <form action="" class="formulario formulario1">
+  
+            <h3>Torne-se um associado</h3>
+  
+            <div class="container-entrada">
+              <label for="nome_form_1">Nome </label>
+              <input type="text" name="nome_form_1" id="nome_1">
             </div>
-
-            <div class="check">
-              <input type="checkbox" name="interesses_1" class="interesses_1" value="Conhecer a estrutura da empresa">
-              <span>Conhecer a estrutura da empresa</span>
+  
+            <div class="container-entrada">
+              <label for="telefone_form_1">Telefone </label>
+              <input type="text" name="telefone_form_1" id="telefone_1" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);" maxlength="15">
             </div>
+  
+            <input type="button"  id="formulario_1" value="Enviar solicitação">
+          </form>
 
-            <div class="check">
-              <input type="checkbox" name="interesses_1" class="interesses_1" value="Tornar-se um associado">
-              <span>Tornar-se um associado</span>
-            </div>
-
-            <div class="check">
-              <input type="checkbox" name="interesses_1" class="interesses_1" value="Mais informações sobre a empresa">
-              <span>Mais informações sobre a empresa</span>
-            </div>
+          <div class="orc">
+            <span>Solcite o seu orçamento agora mesmo!</span>
+            <button class="orçamento">Solicitar orçamento</button>
           </div>
-
-          <input type="button"  id="formulario_1" value="Enviar solicitação">
-        </form>
+        </div>
       </div>
     </main>
 
@@ -189,6 +82,19 @@
     </footer>
     
 
+    <script>
+      try {
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open("GET", 'https://manager.people.com.ai/webchat-script/api/peoplechat/23a58953-cd36-4b06-8e07-38e4c08376a7', false);
+        xmlHttp.send(null);
+        var response = JSON.parse(xmlHttp.responseText);
+        var scriptElement = document.createElement('script');
+    
+        eval(response.content.replace(/textToReplace.people/g, "chat.people"));
+        } catch (error) {
+        console.error(error)
+        }
+    </script>
     <script src="js/mask.js"></script>
     <script src="js/ajax.js"></script>
   </body>
