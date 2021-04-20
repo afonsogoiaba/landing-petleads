@@ -80,21 +80,7 @@
     <footer>
       <span>&copy; <b>Pax Primavera.</b> Todos os direitos reservados.</span>
     </footer>
-    
-
-    <script>
-      try {
-        var xmlHttp = new XMLHttpRequest();
-        xmlHttp.open("GET", 'https://manager.people.com.ai/webchat-script/api/peoplechat/23a58953-cd36-4b06-8e07-38e4c08376a7', false);
-        xmlHttp.send(null);
-        var response = JSON.parse(xmlHttp.responseText);
-        var scriptElement = document.createElement('script');
-    
-        eval(response.content.replace(/textToReplace.people/g, "chat.people"));
-        } catch (error) {
-        console.error(error)
-        }
-    </script>
+  
     <script src="js/mask.js"></script>
     <script src="js/ajax.js"></script>
   </body>
