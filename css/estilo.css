@@ -155,6 +155,8 @@ select, option{
 }
 
 .orçamento{
+  text-decoration: none;
+  text-align: center;
   display: block;
   width: 50%;
   margin: 0 auto;
