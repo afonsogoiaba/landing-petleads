@@ -203,6 +203,9 @@ footer span, footer b{
 }
 
 footer{
+  position: absolute;
+  bottom: 0;
+  background: rgba(255,255,255,0.9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,7 +239,7 @@ footer{
   main{
     height: 90vh;
     margin: 0%;
-    background: url('../img//complexo.png')no-repeat center center;
+    background: url('../img/05.jpg')no-repeat center center;
     background-size: cover;
   }
 
@@ -283,7 +286,7 @@ footer{
     width: 93%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 120px;
     padding: 0.6rem;
     background: rgba(0,0,0,0.26);
     align-items: center;
@@ -338,5 +341,6 @@ footer{
   footer{
     height: 60px;
     max-height: 60px;
+    display: none;
   }
 }
