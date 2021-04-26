@@ -239,7 +239,7 @@ footer{
   main{
     height: 90vh;
     margin: 0%;
-    background: url('../img/05.jpg')no-repeat center center;
+    background: url('../img/06.jpg')no-repeat center center fixed;
     background-size: cover;
   }
 
