@@ -148,14 +148,17 @@ select, option{
 }
 
 .orc span{
+  margin:  0 auto;
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 80%;
+  text-align: center;
 }
 
 .orc b{
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 800;
   color: rgba(0,0,0,0.8);
 }
@@ -299,8 +302,8 @@ footer{
   }
 
   .orc span{
-    width: 70%;
-    font-size: 1.5rem;
+    width: 90%;
+    font-size: 1.4rem;
     margin: 0 auto;
     margin-bottom: 10px;
     color: #FFF;
