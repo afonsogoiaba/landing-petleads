@@ -248,7 +248,7 @@ footer{
   main{
     height: 90vh;
     margin: 0%;
-    background: url('../img/06.jpg')no-repeat center center fixed;
+    background: url('../img/00.jpg')no-repeat center top fixed;
     background-size: cover;
   }
 
@@ -297,7 +297,7 @@ footer{
     margin: 0 auto;
     margin-top: 120px;
     padding: 0.6rem;
-    background: rgba(0,0,0,0.26);
+    background: rgba(0,0,0,0.55);
     align-items: center;
   }
 
